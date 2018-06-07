@@ -1,5 +1,5 @@
 body {
-    //background-color: #66ff66;
+    /*background-color: #66ff66;*/
 	border:2px solid DodgerBlue;
 }
 h1 {
@@ -37,7 +37,7 @@ a:active {
     text-decoration: underline;
 }
 
-.list1 {
+.topnav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,11 +45,11 @@ a:active {
     background-color: #333333;
 }
 
-.list1 li {
+.topnav li {
     float: left;
 }
 
-.list1 li a{
+.topnav li a{
     display: block;
     color: white;
     text-align: center;
@@ -57,6 +57,6 @@ a:active {
     text-decoration: none;
 }
 
-.list1 li a:hover {
+.topnav li a:hover {
     background-color: #111111;
 }
