@@ -35,3 +35,6 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+img { 
+    width:100%; 
+}
