@@ -4,10 +4,22 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="styles.css">
+
 </head>
 
 
 <body>
+
+<script type="text/javascript">
+function display_image(src,alt)
+{
+var img = document.createElement("img");
+img.src = src;
+img.alt = alt;
+
+document.body.appendChild(img);
+}
+</script>
 
 <!--Contains the Top Navigation-->
 <div class="topnav">
@@ -19,14 +31,11 @@
 
 <h1 title="Rock the Red!">Let's GO CAPS! &#9829;</h1>
 <p title="CAPS vs. Knights @8PM">I am very excited for the CAPS game tonight! Game coverage starts around 8 P.M.</p>
-<a href="http://anaanu.com/" target="_blank">This is a link</a>
+<a href="https://www.nbcsports.com/washington/capitals" target="_blank">This is a link to CAPS coverage</a>
 <hr>
 
 <img title="GO CAPS! &#9829;" src="https://goodlogo.com/images/logos/washington_caps_logo_3955.png" alt="CAPS Logo" class="center">
 <br>
-
-<button>CAPITALS</button>
-<hr>
 
 <ul id="list2">
 <li>CAPS Will Win!</li>
@@ -37,6 +46,29 @@
 <a href="https://youtu.be/fMhnZk2yslA">
   <img src="https://www.nbcsports.com/bayarea/sites/csnbayarea/files/styles/article_hero_image/public/2018/05/30/holtbysaveap.jpg?itok=riaWpp3D" alt="Tim Baker" style="width:42px;height:42px;border:0;">
 </a>
+
+<button class="button" onclick="display_image('https://pbs.twimg.com/profile_images/999657584540794880/kizJMgN8.jpg','CAPS Photo');"><span>CAPITALS</span></button>
+
+<script type="text/javascript">
+function display_image(src,alt)
+{
+var img = document.createElement("img");
+img.src = src;
+img.alt = alt;
+
+document.body.appendChild(img);
+}
+</script>
+
+
+<hr>
+
+
+
+
+
+
+
 
 </body>
 </html>
