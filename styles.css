@@ -1,8 +1,9 @@
 body {
-    background-color: powderblue;
+    background-color: #66ff66;
+	border:2px solid DodgerBlue;
 }
 h1 {
-    color: blue;
+    color: red;
     font-family: verdana;
     font-size: 300%;
 }
