@@ -14,15 +14,18 @@ body {
 
 
 h1 {
-    color: red;
+    color: #E80C38;
     font-family: verdana;
     font-size: 300%;
 }
 p  {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
-	border: 1px solid powderblue;
+    margin: auto;
+	color: white;
+    width: 400px;
+    border: 3px solid #E80C38;;
+    padding: 5px;
+	background-color: black;
+	text-align: center;
 }
 
 /* Add a black background color to the top navigation */
@@ -63,9 +66,9 @@ p  {
 
 .button {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #E80C38;
   border: none;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   font-size: 28px;
   padding: 20px;
