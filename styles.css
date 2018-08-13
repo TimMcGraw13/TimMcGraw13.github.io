@@ -34,7 +34,12 @@ p  {
 .topnav {
     background-color: #E80C38;
     overflow: hidden;
-	margin: 0
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	top:0;
+	left:0;
+	width:100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -45,6 +50,7 @@ p  {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+	
 }
 
 /* Change the color of links on hover */
